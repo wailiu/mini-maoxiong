@@ -1,0 +1,10 @@
+{
+  "name": "yunpan-notes",
+  "private": true,
+  "description": "云畔手记 — 零支付宠物陪伴与保育观察微信小游戏",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "preview": "node preview/server.js",
+    "scan:pay": "node scripts/scan-payment.js"
+  }
+}
